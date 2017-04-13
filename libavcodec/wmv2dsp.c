@@ -266,6 +266,6 @@ av_cold void ff_wmv2dsp_init(WMV2DSPContext *c)
     if (ARCH_MIPS)
         ff_wmv2dsp_init_mips(c);
 #if HAVE_INTRINSICS_NEON
-	ff_wmv2dsp_init_neon(c);
+    ff_wmv2dsp_init_neon(c);
 #endif
 }
